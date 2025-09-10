@@ -1,28 +1,28 @@
-# 📸 Deep Learning: Image Classification using CNN and Transfer Learning
+# Deep Learning: Image Classification using CNN and Transfer Learning
 
 ---
 
-## 📌 1. General Description
+## 1. General Description
 
 In this project, we first build a Convolutional Neural Network (CNN) model from scratch to classify images from the CIFAR-10 dataset into predefined categories. Then, we implement a transfer learning approach using the pre-trained MobileNet model. Finally, we compare the performance of the custom CNN and the transfer learning model based on evaluation metrics and analysis.
 
 ---
 
-## 📊 2. Project Overview
+## 2. Project Overview
 
-### 🔍 What does this project do?
+### What does this project do?
 
 - Performs image classification on the CIFAR-10 dataset, which contains 60,000 32x32 color images across 10 different classes (e.g., airplanes, cars, birds, cats, etc.).
 - Builds a CNN model from scratch to learn and classify these images.
 - Implements transfer learning using the MobileNet pre-trained model to improve classification accuracy.
 - Compares and evaluates the performance of both the custom CNN and the MobileNet transfer learning model using key metrics.
 
-### 🎯 What problem does it solve?
+### What problem does it solve?
 
 - Automates the classification of images into meaningful categories, useful in many fields like computer vision, robotics, and content organization.
 - Provides hands-on experience to understand differences between training CNNs from scratch and leveraging pre-trained models.
 
-### 🌍 Potential impact / practical application
+### Potential impact / practical application
 
 - **Educational use:** Offers practical learning in deep learning and transfer learning techniques.
 - **Industry relevance:** Demonstrates how transfer learning accelerates model training and improves accuracy on moderate-sized datasets.
@@ -30,7 +30,7 @@ In this project, we first build a Convolutional Neural Network (CNN) model from 
 
 ---
 
-## 📁 3. Dataset Description
+## 3. Dataset Description
 
 - Dataset: CIFAR-10  
 - Source: [https://www.cs.toronto.edu/~kriz/cifar.html](https://www.cs.toronto.edu/~kriz/cifar.html)  
@@ -40,7 +40,7 @@ In this project, we first build a Convolutional Neural Network (CNN) model from 
 
 ---
 
-## 🎯 4. Research Goal / ML Objective
+## 4. Research Goal / ML Objective
 
 - Develop deep learning models to classify CIFAR-10 images into 10 categories.  
 - Compare a custom CNN trained from scratch with a transfer learning approach using MobileNet.  
@@ -48,7 +48,7 @@ In this project, we first build a Convolutional Neural Network (CNN) model from 
 
 ---
 
-## ⚙️ 5. Steps Taken
+## 5. Steps Taken
 
 ### 1. Data Preprocessing  
 - Loaded the CIFAR-10 dataset using standard libraries.  
@@ -69,7 +69,7 @@ In this project, we first build a Convolutional Neural Network (CNN) model from 
 
 ---
 
-## 🔍 6. Key Findings
+## 6. Key Findings
 
 - The MobileNet transfer learning model outperformed the CNN trained from scratch, achieving higher accuracy with less training time.  
 - The custom CNN successfully learned image features but required more epochs and parameter tuning.  
@@ -78,7 +78,7 @@ In this project, we first build a Convolutional Neural Network (CNN) model from 
 
 ---
 
-## 🧪 7. How to Reproduce the Project
+## 7. How to Reproduce the Project
 
 - Python version: 3.11.5  
 - Main libraries used:  
@@ -92,21 +92,4 @@ In this project, we first build a Convolutional Neural Network (CNN) model from 
   - `Project_3 Presentation.pdf` — project presentation slides  
   - `requirements.txt` — project dependencies
 
----
 
-## 🚀 8. Next Steps / Improvements
-
-- Experiment with other pre-trained models and architectures.  
-- Conduct hyperparameter tuning for improved performance.  
-- Apply advanced data augmentation and regularization methods.  
-- Explore deploying the trained model in an application.
-
----
-
-## 🗂️ 9. Repository Structure
-
-| File/Folder                  | Description                                  |
-|----------------------------- |----------------------------------------------|
-| `Project_3_(CNN_LN).ipynb`   | Notebook containing CNN and MobileNet models |
-| `Project_3 Presentation.pdf` | Slide presentation of project findings       |
-| `requirements.txt`           | Python dependencies required to run project  |
